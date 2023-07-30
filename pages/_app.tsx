@@ -1,6 +1,7 @@
 import { AppProps } from 'next/app'
 
 if (process.env.NEXT_PUBLIC_API_MOCKING === 'enabled') {
+  console.log('starting mocks')
   require('../mocks')
 }
 

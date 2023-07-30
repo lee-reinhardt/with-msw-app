@@ -1,13 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "msw": "^0.49.0",
-    "next": "latest",
+    "msw": "^0.0.0-fetch.rc-15",
+    "next": "13.4.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -19,5 +19,14 @@
   },
   "msw": {
     "workerDirectory": "public"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "useTabs": false,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "jsxBracketSameLine": false,
+    "semi": false
   }
 }
